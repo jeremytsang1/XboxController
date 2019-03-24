@@ -6,3 +6,25 @@ A python module for interfacing with an xbox 360 controller
  - Xboxdrv should be running on Linux based systems
 
 [[https://www.stuffaboutcode.com/2014/10/raspberry-pi-xbox-360-controller-python.html][Original Tutorial]]
+* Setup
+** Raspberry Pi (Rasbpian Stretch)
+- Add the following to ~/etc/apt/sources.list~
+  #+begin_src
+    deb-src http://raspbian.raspberrypi.org/raspbian/ stretch main contrib non-free rpi
+  #+end_src
+
+- update package lists and upgrade packages
+  #+begin_src bash
+    $ sudo apt-get update && sudo apt-get upgrade -y
+  #+end_src
+
+- install pygame
+  #+begin_src bash
+    $ sudo apt-get build-dep python-pygame  # dependencies
+    $ pip install pygame
+  #+end_src
+
+- install ~xboxdrv~
+  #+begin_src bash
+    $ sudo apt install xboxdrv -y
+  #+end_src
