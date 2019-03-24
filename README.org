@@ -4,3 +4,5 @@
 A python module for interfacing with an xbox 360 controller
  - Requires pygame
  - Xboxdrv should be running on Linux based systems
+
+[[https://www.stuffaboutcode.com/2014/10/raspberry-pi-xbox-360-controller-python.html][Original Tutorial]]
