@@ -28,3 +28,17 @@ A python module for interfacing with an xbox 360 controller
   #+begin_src bash
     $ sudo apt install xboxdrv -y
   #+end_src
+* Testing
+** Raspberry Pi (Rasbpian Stretch)
+- plug in the Xbox 360 controller receiver and power on the controller
+
+- run the following to start the driver
+  #+begin_src bash
+    $ sudo rmmod xpad
+    $ sudo xboxdrv --silent &
+  #+end_src
+
+- Test the module
+  #+begin_src bash
+    $ python XboxController.py
+  #+end_src
