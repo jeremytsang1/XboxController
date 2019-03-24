@@ -1,11 +1,14 @@
 #+TITLE: XboxController
-#+AUTHOR: Martin O'Hanlon (martin@ohanlonweb.com, http://www.stuffaboutcode.com)
+#+AUTHOR: Jeremy Tsang (jatsang52@gmail.com)
 * Overview
-A python module for interfacing with an xbox 360 controller
- - Requires pygame
- - Xboxdrv should be running on Linux based systems
+- A python module for interfacing with an xbox 360 controller
+  - Requires pygame
+  - Xboxdrv should be running on Linux based systems
 
-[[https://www.stuffaboutcode.com/2014/10/raspberry-pi-xbox-360-controller-python.html][Original Tutorial]]
+- [[https://www.stuffaboutcode.com/2014/10/raspberry-pi-xbox-360-controller-python.html][Original Tutorial]] by Martin O'Hanlon
+  - forked from [[https://github.com/martinohanlon/XboxController][XboxController]]
+  - martin@ohanlonweb.com
+
 * Setup
 ** Raspberry Pi (Rasbpian Stretch)
 - Add the following to ~/etc/apt/sources.list~
