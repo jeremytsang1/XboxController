@@ -35,6 +35,9 @@
 ** Raspberry Pi (Rasbpian Stretch)
 - plug in the Xbox 360 controller receiver and power on the controller
 
+- If planning to use over SSH make sure to enable X11 forwarding with the ~-X~
+  option. Pygame is using the X server.
+
 - run the following to start the driver
   #+begin_src bash
     $ sudo rmmod xpad
